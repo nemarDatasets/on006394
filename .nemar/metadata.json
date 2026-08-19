@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Electrophysiological markers of surprise-induced failures of visual and auditory awareness",
-  "description": "This dataset contains electrophysiological recordings from 33 participants performing visual and auditory surprise detection tasks. The study investigates electrophysiological markers associated with surprise-induced failures of awareness across sensory modalities. EEG data were collected during counterbalanced presentation of visual and auditory oddball-like tasks, with detailed event annotations and preprocessing information provided for reproducibility.",
+  "description": "This dataset comprises EEG recordings from 33 participants who completed counterbalanced visual and auditory surprise tasks designed to probe electrophysiological markers of surprise-induced failures of perceptual awareness. The data support an ongoing study by Leong et al. examining how unexpected stimuli disrupt conscious awareness across sensory modalities. Some participants' data are incomplete due to exclusion at various analysis stages.",
   "methods_description": "33 participants completed both visual and auditory surprise tasks in counterbalanced order. EEG data were recorded using OpenBCI GUI v5.0.1. Note: recorded EEG values are 24 times larger than actual values due to incorrect GUI settings; units are in microvolts/24 as specified in channels.tsv files.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -17,16 +17,20 @@
       "term": "EEG"
     },
     {
+      "term": "awareness"
+    },
+    {
       "term": "surprise"
     },
     {
-      "term": "visual awareness"
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     },
     {
-      "term": "auditory awareness"
-    },
-    {
-      "term": "oddball task"
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
     },
     {
       "term": "electrophysiology"
