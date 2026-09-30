@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Electrophysiological markers of surprise-induced failures of visual and auditory awareness",
-  "description": "This dataset comprises EEG recordings from 33 participants who completed counterbalanced visual and auditory surprise tasks designed to probe electrophysiological markers of surprise-induced failures of perceptual awareness. The data support an ongoing study by Leong et al. examining how unexpected stimuli disrupt conscious awareness across sensory modalities. Some participants' data are incomplete due to exclusion at various analysis stages.",
-  "methods_description": "33 participants completed both visual and auditory surprise tasks in counterbalanced order. EEG data were recorded using OpenBCI GUI v5.0.1. Note: recorded EEG values are 24 times larger than actual values due to incorrect GUI settings; units are in microvolts/24 as specified in channels.tsv files.",
+  "description": "EEG recordings from 33 participants who each completed both a visual and an auditory surprise task, with task order counterbalanced. The dataset supports investigation of electrophysiological markers of surprise-induced failures of visual and auditory awareness. Data from participants excluded at various analysis stages are included up to the stage of processing they reached.",
+  "methods_description": "EEG was recorded with an OpenBCI system during counterbalanced visual and auditory surprise tasks. Because of incorrect settings in OpenBCI GUI v5.0.1, recorded values are 24 times larger than actual, so the units are microvolts / 24, as specified in the channels.tsv files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,10 +17,13 @@
       "term": "EEG"
     },
     {
+      "term": "surprise"
+    },
+    {
       "term": "awareness"
     },
     {
-      "term": "surprise"
+      "term": "inattentional blindness"
     },
     {
       "term": "Visual Perception",
@@ -31,9 +34,6 @@
       "term": "Auditory Perception",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
-    },
-    {
-      "term": "electrophysiology"
     }
   ],
   "related_identifiers": [
@@ -59,7 +59,7 @@
     "eeg"
   ],
   "sizes": [
-    "546.5 MB (121 files)"
+    "521 MB (121 files)"
   ],
   "formats": [
     ".fdt",
